@@ -6,4 +6,5 @@ function page(resquest,response){
   })
 }
 
+
 export default page;
