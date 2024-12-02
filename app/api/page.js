@@ -1,7 +1,9 @@
-export default function Api(){
-  return(
-    <>
-    <h2>teste</h2>
-  </>
-  )
+function page(resquest,response){
+  const dynamicdate = new Date();
+
+  response.json({
+    date:dynamicdate.toDateString()
+  })
 }
+
+export default page;
