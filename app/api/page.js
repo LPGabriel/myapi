@@ -1,4 +1,4 @@
-function api(resquest,response){
+function page(resquest,response){
   const dynamicdate = new Date();
 
   response.json({
@@ -6,4 +6,4 @@ function api(resquest,response){
   })
 }
 
-export default api;
+export default page;
